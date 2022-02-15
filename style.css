@@ -1,0 +1,10 @@
+.color {
+    border:1px solid black;
+    display: inline-block;
+   
+}
+#color-palette{
+    display: inline-block;
+    height: 20px;
+    width: 190px;
+}
