@@ -1,10 +1,29 @@
+#title{
+    text-align: center;
+    display: block;
+}
 .color {
     border:1px solid black;
     display: inline-block;
-   
+    height: 40px;
+    width: 40px;
 }
 #color-palette{
+    display: inline
+}
+#pixel-board{
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+
+
+}
+.pixel {
+    background-color: white;
+    width: 38px;
+    height: 38px;
+    border: solid 1px rgb(5, 4, 4);
     display: inline-block;
-    height: 20px;
-    width: 190px;
+
+    
 }
