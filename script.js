@@ -21,3 +21,28 @@ function corInicial(){
     black.classList.add('selected');
 }
 corInicial();
+
+function selecionaCor(event) {
+    const coisa1 = document.querySelector('.selected');
+    const recebeCor = window.getComputedStyle(coisa1, null);
+    const backgroundcolor = recebeCor.getPropertyValue('background-color');
+    const clicado = event.target;
+    clicado.style.backgroundColor = backgroundcolor;
+}
+function pintar() {
+    const arrayPixel = document.querySelectorAll('.pixel');
+    for (let index = 0; index < arrayPixel.length; index++) {
+     const bloco = arrayPixel[index];
+     bloco.addEventListener('click', selecionaCor);
+    }  
+}
+pintar();
+function selecionarPaleta(event) {
+    document.querySelector('.selected').classList.remove('selected');
+    event.target.classList.add('selected');
+}
+document.getElementById('inicial').addEventListener('click', selecionarPaleta);
+document.getElementById('inicial2').addEventListener('click', selecionarPaleta);
+document.getElementById('inicial3').addEventListener('click', selecionarPaleta);
+document.getElementById('inicial4').addEventListener('click', selecionarPaleta);
+
