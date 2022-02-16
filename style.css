@@ -11,19 +11,17 @@
 #color-palette{
     display: inline
 }
+
+ /* Tabela */
 #pixel-board{
     border: 2px solid black;
-    width: 200px;
-    height: 200px;
-
-
+    width: 210px;
+    height: 210px;
 }
 .pixel {
     background-color: white;
-    width: 38px;
-    height: 38px;
-    border: solid 1px rgb(5, 4, 4);
+    width: 40px;
+    height: 40px;
+    border: 1px solid black ;
     display: inline-block;
-
-    
 }
