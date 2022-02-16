@@ -16,4 +16,8 @@ const quadroPixel = document.getElementById('pixel-board');
 }
 criaDivs(25);
 
-
+function corInicial(){
+    const black = document.getElementById('inicial');
+    black.classList.add('selected');
+}
+corInicial();
