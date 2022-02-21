@@ -46,3 +46,11 @@ document.getElementById('inicial2').addEventListener('click', selecionarPaleta);
 document.getElementById('inicial3').addEventListener('click', selecionarPaleta);
 document.getElementById('inicial4').addEventListener('click', selecionarPaleta);
 
+function limpaQuadro(){
+    let pixel = document.querySelectorAll('.pixel')
+    for (i = 0; i < pixel.length; i++){
+        pixel[i].style.background = 'white';
+    }
+
+
+}
