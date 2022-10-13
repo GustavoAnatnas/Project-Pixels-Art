@@ -1,4 +1,4 @@
-# Projeto-Arte-com-Pixels
+# Projeto Arte com Pixels
 Projeto proposto no Módulo de Fundamentos: DOM, Eventos e Web Storage (TRYBE)
 
 ## Objetivo:
